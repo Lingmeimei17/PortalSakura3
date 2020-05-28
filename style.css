@@ -264,14 +264,14 @@ a.under:hover {
 	background: transparent;
 }
 #logo {
-    width: 370px;
-    height: 150px;
+    width: 350px;
+    height: 108px;
     float: left;
     margin-left: 10px;
     margin-top: 38px;
     background-image: url(https://i.ibb.co/vh3BXHg/logost3.png);
     background-repeat: no-repeat;
-    background-size: 313px 95px;
+    background-size: 300px 90px;
 }
 #responsive-form{
 	padding-top: 5px;
