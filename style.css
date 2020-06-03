@@ -11,6 +11,8 @@ body {
 	background: black url(https://i.postimg.cc/gj6nrM21/background-1.jpg) no-repeat center top;
 	margin: 0;
 	padding: 0;
+	width:100%;
+	height:100%;
 }
 body.activate {
 	overflow: hidden;
@@ -54,20 +56,6 @@ div { box-sizing: border-box;}
     width:100%; height:100%;
     top:0; left:0px;
 	background: rgba(0,0,0,0.9);
-}
-#username {
-	background-image: url(../img/user.html);
-	background-size: 16px 16px;
-	background-position: 5px 10px;
-	background-repeat: no-repeat;
-	width: 34%;
-}
-#password {
-	background-image: url(../img/pass.html);
-	background-size: 16px 16px;
-	background-position: 5px 10px;
-	background-repeat: no-repeat;
-	width: 34%;
 }
 
 .under{
@@ -293,26 +281,6 @@ a.under:hover {
 	display: none;
 }
 
-#five-last {
-    float: left;
-    width: 329px;
-    height: 203px;
-    position: relative;
-    background: url(../img/fivelast.png) center no-repeat;
-}
-
-.deposit {
-    float: left;
-    position: absolute;
-    top: 25px;
-    left: 70px;
-    font-family: arial;
-    font-size: 20px;
-    color: 
-    white;
-    text-transform: uppercase;
-}
-
 .little-table {
     width: 85%;
     height: auto;
@@ -342,49 +310,6 @@ table {
     color: #ffe404;
 }
 
-.withdraw {
-    float: left;
-    position: absolute;
-    top: 25px;
-    left: 50px;
-    font-family: arial;
-    font-size: 20px;
-    color: 
-    white;
-    text-transform: uppercase;
-}
-
-.jackpot {
-    float: left;
-    width: 329px;
-    height: 203px;
-    background: url(../img/jackpot.png) center no-repeat;
-    margin: 0 0 0px 0px;
-    position: relative;
-    color: 
-    white;
-}
-
-.jackpot > p:first-child {
-    font-family: arial;
-    font-size: 29px;
-    position: absolute;
-    top: 45px;
-    left: 40px;
-    letter-spacing: 9px;
-    line-height: 0px;
-}
-
-.jackpot > p:last-child {
-    font-family: arial;
-    font-size: 29px;
-    position: absolute;
-    top: 134px;
-    left: 40px;
-    letter-spacing: 8px;
-    line-height: 0px;
-}
-
 .content-text {
     float: left;
     width: 510px;
@@ -395,7 +320,7 @@ table {
     float: right;
     width: 443px;
     height: 192px;
-    background: url(../img/contact.png) center no-repeat;
+    background: url(https://i.postimg.cc/MK66FWHQ/Contact-Sakuratoto3.png) center no-repeat;
     margin: -65px 20px 0 0;
     position: relative;
     z-index: 999;
@@ -972,8 +897,8 @@ footer {
 
 @media only screen and (min-width: 1001px){
     .login {
-    	width: 169px;
-		height: 69px;
+    	width: 202px;
+		height: 81px;
 		background: transparent url(https://i.postimg.cc/hjmWfYjg/LOGIN-BUTTON.png) center no-repeat;
         background-size: 100% 100%;
 		cursor: pointer;
@@ -993,8 +918,8 @@ footer {
 	
 
   .bonus {
-    width: 149px;
-        height: 69px;
+    width: 202px;
+        height: 81px;
     background: transparent url(https://i.postimg.cc/7hyv7NGz/REGISTER-BUTTON.png) center no-repeat;
     background-size: 100% 100%;
     cursor: pointer;
@@ -1154,48 +1079,6 @@ footer {
         padding-right: 40px;
     }
 
-   .login {
-        width: 129px;
-        height: 69px;
-        background: transparent url(../img/button2.gif)
-			center no-repeat;
-        background-size: 100% 100%;
-        cursor: pointer;
-        border: none;
-        margin-right: 10px;
-        margin-top: 5px;
-        border-radius: 3px;
-        color: white;
-        font-weight: 900;
-        font-size: 20px;
-        display: inline-block;
-        text-decoration: none;
-        text-align: center;
-        font-family: Arial;
-        line-height: 67px;
-    }
-
-  .bonus {
-    width: 129px;
-        height: 69px;
-    background: transparent url(../img/button.gif) center no-repeat;
-    background-size: 100% 100%;
-    cursor: pointer;
-    border: none;
-    margin-right: 0px;
-    margin-top: 7px;
-    border-radius: 3px;
-    color: white;
-    font-weight: 900;
-    font-size: 15px;
-    display: inline-block;
-    text-decoration: none;
-    text-align: right;
-    font-family: Arial;
-    line-height: 72px;
-    padding-right: 31px;
-}
-
     .no-acc {
     font-size: 13px;
     color: #fff;
@@ -1249,10 +1132,6 @@ footer {
 		margin-left: -386px;
 		margin-top: 5px;
 	}
-	.login {
-		width  :100%;
-		margin-bottom: 5px;
-	}
 	.no-acc { text-align: center; position:static; bottom: auto; right: auto; margin-top:0; margin-left: -79px;}
 	#site-info { text-align: center; }
 	.info-section p {font-size: 8px; padding-right: 19px;}
@@ -1273,54 +1152,7 @@ footer {
 	        
 	}
 
-		#frm-login input[type="text"], #frm-login input[type="password"] {
-    margin-bottom: 5px;
-    margin-top: 31px;
-    background: url(../img/textbox-bg.html) center no-repeat;
-    color: white;
-    width: 133px;
-    height: 30px;
-    border: none;
-    float: left;
-    padding-left: 15px;
-    padding-right: 10px;
-    margin-right: -14px;
-    display: none;
-	}
 
-    .login {
-    	width: 134px;
-		height: 55px;
-		background: transparent url(../img/button2.gif) center no-repeat;
-		background-size: 100% 100%;
-		cursor: pointer;
-		border: none;
-		margin-right: 0px;
-		border-radius: 3px;
-		color: black;
-		font-weight: 900;
-		font-size: 17px;
-		display: inline-block;
-		text-decoration: none;
-        line-height: 30px;
-    }
-
-    .bonus {
-    	width: 134px;
-		height: 55px;
-		background: transparent url(../img/button.gif) center no-repeat;
-		background-size: 100% 100%;
-		cursor: pointer;
-		border: none;
-		margin-right: 0px;
-		border-radius: 3px;
-		color: black;
-		font-weight: 900;
-		font-size: 17px;
-		display: inline-block;
-		text-decoration: none;
-        line-height: 30px;
-    }
 
 #responsive-form {
     float: none;
@@ -1574,40 +1406,6 @@ footer {
     display: none;
 	}
 
-    .login {
-    	width: 134px;
-		height: 55px;
-		background: transparent url(../img/button2.gif) center no-repeat;
-        background-size: 100% 100%;
-		cursor: pointer;
-		border: none;
-		margin-right: 0px;
-		border-radius: 3px;
-		color: black;
-		font-weight: 900;
-		font-size: 17px;
-		display: inline-block;
-		text-decoration: none;
-        line-height: 27px;
-    }
-
-    .bonus {
-    	width: 134px;
-		height: 55px;
-		background: transparent url(../img/button.gif) center no-repeat;
-        background-size: 100% 100%;
-		cursor: pointer;
-		border: none;
-		margin-right: 0px;
-		border-radius: 3px;
-		color: black;
-		font-weight: 900;
-		font-size: 17px;
-		display: inline-block;
-		text-decoration: none;
-        line-height: 27px;
-    }
-
 #responsive-form {
     float: none;
     text-align: center;
@@ -1851,40 +1649,6 @@ footer {
 	        background-size: contain;
 	        
 	}
-
-    .login {
-    	width: 134px;
-		height: 55px;
-		background: transparent url(../img/button2.gif) center no-repeat;
-        background-size: 100% 100%;
-		cursor: pointer;
-		border: none;
-		margin-right: 0px;
-		border-radius: 3px;
-		color: black;
-		font-weight: 900;
-		font-size: 17px;
-		display: inline-block;
-		text-decoration: none;
-        line-height: 27px;
-    }
-
-    .bonus {
-    	width: 134px;
-		height: 55px;
-		background: transparent url(../img/button.gif) center no-repeat;
-        background-size: 100% 100%;
-		cursor: pointer;
-		border: none;
-		margin-right: 0px;
-		border-radius: 3px;
-		color: black;
-		font-weight: 900;
-		font-size: 17px;
-		display: inline-block;
-		text-decoration: none;
-        line-height: 27px;
-    }
 
 #responsive-form {
     float: none;
@@ -2433,41 +2197,6 @@ footer {
 	        
 	}
 
-.login {
-    width: 154px;
-		height: 75px;
-    background: transparent url(../img/button2.gif) center no-repeat;
-    background-size: 100% 100%;
-	cursor: pointer;
-	border: none;
-	margin-right: 0px;
-	color: black;
-    font-weight: 900;
-    font-size: 17px;
-    display: inline-block;
-    border-radius: 3px;
-    text-decoration: none;
-    line-height: 27px;
-    margin-left: 15px;
-}
-
-.bonus {
-    width: 154px;
-		height: 75px;
-    background: transparent url(../img/button.gif) center no-repeat;
-    background-size: 100% 100%;
-	cursor: pointer;
-	border: none;
-	margin-right: 0px;
-	color: black;
-    font-weight: 900;
-    font-size: 17px;
-    display: inline-block;
-    border-radius: 3px;
-    text-decoration: none;
-    line-height: 27px;
-}
-
  #responsive-form {
     float: none;
     text-align: center;
@@ -2717,40 +2446,6 @@ footer {
     display: none;
 }
 
-.login {
-    width: 134px;
-		height: 55px;
-    background: transparent url(../img/button2.gif) center no-repeat;
-    background-size: 100% 100%;
-	cursor: pointer;
-	border: none;
-	margin-right: 0px;
-	color: black;
-    font-weight: 900;
-    font-size: 17px;
-    display: inline-block;
-    border-radius: 3px;
-    text-decoration: none;
-    line-height: 30px;
-    margin-left: 15px;
-}
-
-.bonus {
-    width: 134px;
-		height: 55px;
-    background: transparent url(../img/button.gif) center no-repeat;
-    background-size: 100% 100%;
-	cursor: pointer;
-	border: none;
-	margin-right: 0px;
-	color: black;
-    font-weight: 900;
-    font-size: 17px;
-    display: inline-block;
-    border-radius: 3px;
-    text-decoration: none;
-    line-height: 30px;
-}
  #responsive-form {
     float: none;
     text-align: center;
@@ -3008,40 +2703,6 @@ footer {
     display: none;
 }
 
-.login {
-    width: 134px;
-		height: 55px;
-    background: transparent url(../img/button2.gif) center no-repeat;
-    background-size: 100% 100%;
-	cursor: pointer;
-	border: none;
-	margin-right: 0px;
-	color: black;
-    font-weight: 900;
-    font-size: 17px;
-    display: inline-block;
-    border-radius: 3px;
-    text-decoration: none;
-    line-height: 30px;
-    margin-left: 15px;
-}
-
-.bonus {
-    width: 134px;
-		height: 55px;
-    background: transparent url(../img/button.gif) center no-repeat;
-    background-size: 100% 100%;
-	cursor: pointer;
-	border: none;
-	margin-right: 0px;
-	color: black;
-    font-weight: 900;
-    font-size: 17px;
-    display: inline-block;
-    border-radius: 3px;
-    text-decoration: none;
-    line-height: 30px;
-}
  #responsive-form {
     float: none;
     text-align: center;
