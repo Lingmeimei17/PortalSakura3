@@ -894,10 +894,12 @@ footer {
 @media only screen and (min-width: 1001px){
     .login {
 	width: 202px;
-		height: 81px;
-	background: transparent url(https://i.postimg.cc/hjmWfYjg/LOGIN-BUTTON.png) center no-repeat;
+        height: 81px;
+    background: transparent url(https://i.postimg.cc/hjmWfYjg/LOGIN-BUTTON.png) center no-repeat;
     background-size: 100% 100%;
     cursor: pointer;
+    border: none;
+    margin-right: 0px;
     margin-top: 5px;
     display: inline-block;
     text-decoration: none;
@@ -1888,41 +1890,6 @@ footer {
     display: none;
 }
 
-
-.login {
-    width: 134px;
-		height: 55px;
-    background: transparent url(../img/button2.gif) center no-repeat;
-    background-size: 100% 100%;
-    cursor: pointer;
-    border: none;
-    margin-right: 0px;
-    color: black;
-    font-weight: 900;
-    font-size: 17px;
-    display: inline-block;
-    border-radius: 3px;
-    text-decoration: none;
-    line-height: 27px;
-    margin-left: 15px;
-}
-
-.bonus {
-    width: 134px;
-		height: 55px;
-    background: transparent url(../img/button.gif) center no-repeat;
-    background-size: 100% 100%;
-    cursor: pointer;
-    border: none;
-    margin-right: 0px;
-    color: black;
-    font-weight: 900;
-    font-size: 17px;
-    display: inline-block;
-    border-radius: 3px;
-    text-decoration: none;
-    line-height: 27px;
-}
 
  #responsive-form {
     float: none;
