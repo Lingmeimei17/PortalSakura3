@@ -897,19 +897,6 @@ footer {
 		height: 81px;
 	background: transparent url(https://i.postimg.cc/hjmWfYjg/LOGIN-BUTTON.png) center no-repeat;
     background-size: 100% 100%;
-    cursor: pointer;
-    border: none;
-    margin-right: 0px;
-    margin-top: 5px;
-    border-radius: 3px;
-    color: white;
-    font-weight: 900;
-    font-size: 15px;
-    display: inline-block;
-    text-decoration: none;
-    text-align: right;
-    font-family: Arial;
-    line-height: 56px;
     }
 	
 
@@ -918,19 +905,6 @@ footer {
         height: 81px;
     background: transparent url(https://i.postimg.cc/7hyv7NGz/REGISTER-BUTTON.png) center no-repeat;
     background-size: 100% 100%;
-    cursor: pointer;
-    border: none;
-    margin-right: 0px;
-    margin-top: 5px;
-    border-radius: 3px;
-    color: white;
-    font-weight: 900;
-    font-size: 15px;
-    display: inline-block;
-    text-decoration: none;
-    text-align: right;
-    font-family: Arial;
-    line-height: 56px;
     padding-right: 31px;
 }
 
