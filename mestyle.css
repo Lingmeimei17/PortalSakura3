@@ -247,6 +247,7 @@ a.under:hover {
 	padding: 0px 0px;
 	text-align: center;
 	height: 105px;
+	background: orange;
 }
 #logo {
     width: 350px;
@@ -683,10 +684,10 @@ ul.main-navigation {
 	margin-left: 0px;
 }
 .main-navigation li a:hover {
-	color: #00b7f4;
+	color: #fca903;
 }
 .main-navigation li a.active {
-	color: #00b7f4;
+	color: #fca903;
 }
 #side-menu.active {
     -ms-transform: translateX(0px);
@@ -768,7 +769,7 @@ ul.main-navigation {
 }
 .mobile-navigation li a:hover {
 	background-color: snow;
-	color: #111;
+	color: #fca903;
 	
 }
 .mobile-navigation li a.active {
