@@ -247,7 +247,7 @@ a.under:hover {
 	padding: 0px 0px;
 	text-align: center;
 	height: 105px;
-	background: transparent;
+	background: orange;
 }
 #logo {
     width: 350px;
@@ -1106,7 +1106,7 @@ footer {
      body {
     background: black;
     }
-    #site-brand {background: linear-gradient(to bottom, #000 30%, #00749e 90%);}
+    #site-brand {background: linear-gradient(to bottom, #000 30%, #fca903 90%);}
     #jp-domino, #jp-poker, #jp-capsa { height: 120px; line-height: 155px; font-size: 35px; }
     .info-section .center { width:100%; margin: 10px auto;; }
     .info-section > div.sect { float: none; width:100%; }
@@ -1344,7 +1344,7 @@ footer {
      body {
     background: black;
     }
-    #site-brand { background: linear-gradient(to bottom, #000 30%, #00749e 90%);}
+    #site-brand { background: linear-gradient(to bottom, #000 30%, #fca903 90%);}
     #jp-domino, #jp-poker, #jp-capsa { height: 120px; line-height: 155px; font-size: 35px; }
     .info-section .center { width:100%; margin: 0 auto;; }
     .info-section > div.sect { float: none; width:100%; }
@@ -1575,7 +1575,7 @@ footer {
     padding: 0px 0px;
     text-align: center;
     height: 131px;
-    background: linear-gradient(to bottom, #000 30%, #00749e 90%);
+    background: linear-gradient(to bottom, #000 30%, #fca903 90%);
 	}
 
 	#logo {
@@ -1824,7 +1824,7 @@ footer {
     padding: 0px 0px;
     text-align: center;
     height: 191px;
-    background: linear-gradient(to bottom, #000 30%, #00749e 90%);
+    background: linear-gradient(to bottom, #000 30%, #fca903 90%);
 }
 	
     #jp-domino, #jp-poker { height: 120px; line-height: 155px; font-size: 35px; }
@@ -2112,7 +2112,7 @@ footer {
     padding: 0px 0px;
     text-align: center;
     height: 191px;
-    background: linear-gradient(to bottom, #000 30%, #00749e 90%);
+    background: linear-gradient(to bottom, #000 30%, #fca903 90%);
 }
     #jp-domino, #jp-poker { height: 100px; line-height: 130px; font-size: 28px; }
     .info-section .center { float: none; width:100%; }
@@ -2434,7 +2434,7 @@ footer {
     padding: 0px 0px;
     text-align: center;
     height: 151px;
-    background: linear-gradient(to bottom, #000 30%, #00749e 90%);
+    background: linear-gradient(to bottom, #000 30%, #fca903 90%);
 }
 
 #jackpot {
@@ -2691,7 +2691,7 @@ footer {
     padding: 0px 0px;
     text-align: center;
     height: 151px;
-    background: linear-gradient(to bottom, #000 30%, #00749e 90%);
+    background: linear-gradient(to bottom, #000 30%, #fca903 90%);
 }
 
 #jackpot {
