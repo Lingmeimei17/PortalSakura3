@@ -314,10 +314,11 @@ table {
 }
 
 .contact-bg {
+	padding-top:2em;
     float: right;
     width: 443px;
     height: 192px;
-    background: url(https://i.postimg.cc/qMZkwF03/Contact-Sakuratoto3.png) center no-repeat;
+    background: url(https://i.postimg.cc/Vv1BhG1j/Contact-Sakuratoto3.png) center no-repeat;
     margin: -65px 20px 0 0;
     position: relative;
     z-index: 999;
