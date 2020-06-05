@@ -314,7 +314,7 @@ table {
 }
 
 .contact-bg {
-	padding-top:2em;
+	padding-top:-1em;
     float: right;
     width: 443px;
     height: 192px;
